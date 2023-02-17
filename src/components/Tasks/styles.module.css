@@ -1,0 +1,63 @@
+.container {
+  margin-top: 90px;
+  max-width: 736px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 92px;
+  min-width: 638px;
+}
+
+.container header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.container header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.container header div p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container header .created p {
+  color: var(--blue);
+}
+
+.container header .done p {
+  color: var(--purple);
+}
+
+.container header div span {
+  background: var(--gray-400);
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  color: var(--gray-200);
+  font-weight: bold;
+}
+
+.empty-tasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  flex-direction: column;
+  color: var(--gray-300);
+  font-size: 16px;
+}
+
+.empty-tasks span {
+  font-weight: bold;
+}
+
+.empty-tasks p {
+  font-size: 15.5px;
+}
